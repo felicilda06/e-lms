@@ -1,11 +1,11 @@
+import Footer from '../components/Footer';
 import School2 from '../images/school2.jpg'
 import Login from '../images/login1.jpg'
-import User from '../images/user.png'
 import React from 'react';
 
 function LandingPage(){
     return(
-        <div className="w-full h-screen overflow-y-scroll">
+        <div className="w-screen h-screen overflow-y-scroll">
             <div className="relative w-full h-80 bg-center bg-no-repeat bg-cover border-b-2 shadow-xl" style={{backgroundImage: `url(${School2})`}}>
                 <div className="w-full h-full bg-black opacity-70">
                 </div>
@@ -25,7 +25,7 @@ function LandingPage(){
                        </div>
                     </div>
                     <form>
-                        <div className="form-group w-full flex justify-center flex-col">
+                        <div className="form-group w-full flex justify-center flex-col font-poppins">
                             <div className="form-input w-full flex justify-center">
                                 <input type="text" className="border-b-2 outline-none border-gray-500 text-center text-gray-800 bg-gray-50 p-2" placeholder="Enter email or phone"></input>
                             </div>
@@ -39,14 +39,17 @@ function LandingPage(){
                             <div className="w-full h-full flex justify-center">
                                 <button className="mt-4 outline-none w-40 h-full bg-blue-500 p-1 uppercase rounded-full text-gray-50 hover:bg-blue-600">Login</button>
                             </div>
-                            <a href="#" className="text-blue-500 w-full text-right mt-4 mr-20 pr-20 hover:underline">Forgot Password?</a>
-                            <div className="mt-10 ml-16">
+                           <div className="w-full mt-4 px-20">
+                                <a href="#" className="text-blue-500 hover:underline">Forgot Password?</a>
+                           </div>
+                            <div className="mt-10 flex justify-center">
                                 <span className="text-gray-600">Don't have an account?<a href="#" className="text-blue-500 hover:underline">&nbsp;Sign-up here</a></span>
                             </div>
                         </div>
                     </form>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

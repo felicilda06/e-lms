@@ -2,9 +2,9 @@ import React from 'react';
 
 function Footer(){
     return(
-       <footer className="text-gray-50 w-full h-full">
-           <div className="w-full absolute bottom-0 z-10 h-14 flex justify-between bg-blue-600 border-b border-gray-400 shadow-xl px-4">
-              
+       <footer className="text-gray-50 w-full">
+           <div className="font-poppins w-full relative bottom-0 h-12 flex justify-center items-center bg-gray-200 border-t-2 border-gray-300 shadow-xl px-4">
+              <span className="text-gray-700">Copyright&copy; All Rights Reserved.</span>
            </div>
        </footer>
     );
