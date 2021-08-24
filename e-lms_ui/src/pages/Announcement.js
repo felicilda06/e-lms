@@ -16,19 +16,21 @@ function Announcement(){
                         </Link>
                     </div>
                     <h1 className="text-center mt-2 text-2xl text-gray-700 uppercase">Announcement</h1>
-                    <div className="w-full px-6 mt-6 text-gray-700 list-none flex justify-center items-center flex-col">
+                    <div className="w-full px-6 mt-3 text-gray-700 list-none flex justify-center items-center flex-col">
                         <div>
                             <div className="my-2">
                                 <li>What:&nbsp;&nbsp;PTCA Meeting</li>
                                 <li>Where:&nbsp;&nbsp;TOCS-SLEC</li>
                                 <li>When:&nbsp;&nbsp;August 28, 2021</li>
                                 <li>Who:&nbsp;&nbsp;Both Teacher & Parents</li>
+                                <small className="text-red-500">Note:&nbsp;&nbsp;Attendance is a must.</small>
                             </div>
                             <div className="my-4">
                                 <li>What:&nbsp;&nbsp;BSP Meeting</li>
                                 <li>Where:&nbsp;&nbsp;TOCS Plaza</li>
                                 <li>When:&nbsp;&nbsp;August 30, 2021</li>
                                 <li>Who:&nbsp;&nbsp;Both Teacher & Parents</li>
+                                <small className="text-red-500">Note:&nbsp;&nbsp;Attendance is a must.</small>
                             </div>
                         </div>
                     </div>
