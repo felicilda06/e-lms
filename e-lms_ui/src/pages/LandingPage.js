@@ -5,7 +5,7 @@ import React from 'react';
 
 function LandingPage(){
     return(
-        <div className="w-screen h-screen overflow-y-scroll">
+        <div className="w-full h-screen overflow-y-scroll overflow-x-hidden">
             <div className="relative w-full h-80 bg-center bg-no-repeat bg-cover border-b-2 shadow-xl" style={{backgroundImage: `url(${School2})`}}>
                 <div className="w-full h-full bg-black opacity-70">
                 </div>
@@ -16,7 +16,7 @@ function LandingPage(){
                     </div>
                 </div>
             </div>
-            <div className="h-auto w-full flex justify-center bg-gray-100 px-10 py-20 lg:py-16 md:py-32">
+            <div className="h-auto w-full flex justify-center bg-gray-100 px-28 py-20 lg:py-16 md:py-32">
                 <div className="w-96 h-auto rounded-md border-2 border-gray-300 shadow-xl bg-gray-50 pb-12">
                     <div className="relative w-full h-16 rounded-t-md bg-center bg-no-repeat bg-cover border-b border-gray-300" style={{backgroundImage: `url(${Login})`}}></div>
                     <div className="relative -top-8 z-10 flex justify-center">
@@ -26,13 +26,13 @@ function LandingPage(){
                     </div>
                     <form>
                         <div className="form-group w-full flex justify-center flex-col font-poppins">
-                            <div className="form-input w-full flex justify-center">
+                            <div className="form-input w-full flex justify-center px-32">
                                 <input type="text" className="border-b-2 outline-none border-gray-500 text-center text-gray-800 bg-gray-50 p-2" placeholder="Enter email or phone"></input>
                             </div>
-                            <div className="form-input w-full flex justify-center mt-6">
+                            <div className="form-input w-full flex justify-center mt-6 px-32">
                                 <input type="password" className="border-b-2 outline-none border-gray-500 text-center text-gray-800 bg-gray-50 p-2" placeholder="Enter password"></input>
                             </div>
-                            <div className="form-input w-full flex mt-5 mx-20">
+                            <div className="form-input w-full flex mt-6 mx-20">
                                 <input type="checkbox" className="mt-1 mr-1 h-4 outline-none" id="form-check"></input>
                                 <label for="form-check" className="text-gray-600 text-md cursor-pointer">Remember Me</label>
                             </div>

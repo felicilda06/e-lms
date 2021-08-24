@@ -2,7 +2,7 @@ import React from 'react';
 
 function Header(){
     return(
-       <header className="text-gray-50 w-full">
+       <header className="text-gray-50">
            <div className="w-full fixed z-10 h-14 flex justify-between bg-blue-600 border-b border-gray-400 shadow-xl px-4">
                <div className="flex flex-col justify-center">
                    <h3 className="font-lobster text-md lg:text-calc-2 md:text-calc-2">E-Learning Management System</h3>
