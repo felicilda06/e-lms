@@ -8,6 +8,8 @@ module.exports = {
         'calc-2':'19px',
         'calc-3':'14px',
         'calc-4':'11px',
+        'calc-5':'12px',
+        'calc-6':'15px',
       },
       fontFamily:{
         poppins:'Poppins',

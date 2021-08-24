@@ -16,7 +16,7 @@ function LandingPage(){
                     </div>
                 </div>
             </div>
-            <div className="h-auto w-full flex justify-center bg-gray-100 px-28 py-20 lg:py-16 md:py-32">
+            <div className="h-auto w-full flex justify-center bg-gray-50 py-20 lg:py-16 md:py-32">
                 <div className="w-96 h-auto rounded-md border-2 border-gray-300 shadow-xl bg-gray-50 pb-12">
                     <div className="relative w-full h-16 rounded-t-md bg-center bg-no-repeat bg-cover border-b border-gray-300" style={{backgroundImage: `url(${Login})`}}></div>
                     <div className="relative -top-8 z-10 flex justify-center">
@@ -24,25 +24,25 @@ function LandingPage(){
                          <i className="fa fa-user text-4xl text-gray-500"></i>
                        </div>
                     </div>
-                    <form>
-                        <div className="form-group w-full flex justify-center flex-col font-poppins">
-                            <div className="form-input w-full flex justify-center px-32">
+                    <form autocomplete="off">
+                        <div className="form-group w-96 flex justify-center flex-col font-poppins px-12">
+                            <div className="form-input flex justify-center">
                                 <input type="text" className="border-b-2 outline-none border-gray-500 text-center text-gray-800 bg-gray-50 p-2" placeholder="Enter email or phone"></input>
                             </div>
-                            <div className="form-input w-full flex justify-center mt-6 px-32">
+                            <div className="form-input flex justify-center mt-6">
                                 <input type="password" className="border-b-2 outline-none border-gray-500 text-center text-gray-800 bg-gray-50 p-2" placeholder="Enter password"></input>
                             </div>
-                            <div className="form-input w-full flex mt-6 mx-20">
-                                <input type="checkbox" className="mt-1 mr-1 h-4 outline-none" id="form-check"></input>
+                            <div className="form-input w-full mt-6 pl-10 flex items-center">
+                                <input type="checkbox" className="mr-1 outline-none" id="form-check"></input>
                                 <label for="form-check" className="text-gray-600 text-md cursor-pointer">Remember Me</label>
                             </div>
                             <div className="w-full h-full flex justify-center">
                                 <button className="mt-4 outline-none w-40 h-full bg-blue-500 p-1 uppercase rounded-full text-gray-50 hover:bg-blue-600">Login</button>
                             </div>
-                           <div className="w-full mt-4 px-20">
+                           <div className="w-full mt-4 pl-10">
                                 <a href="#" className="text-blue-500 hover:underline">Forgot Password?</a>
                            </div>
-                            <div className="mt-10 flex justify-center">
+                            <div className="mt-10 w-full flex justify-center text-calc-3 lg:text-calc-6 md:text-calc-6">
                                 <span className="text-gray-600">Don't have an account?<a href="#" className="text-blue-500 hover:underline">&nbsp;Sign-up here</a></span>
                             </div>
                         </div>
