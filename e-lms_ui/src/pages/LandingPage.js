@@ -37,7 +37,7 @@ function LandingPage(){
                                 <label for="form-check" className="text-gray-600 text-md cursor-pointer">Remember Me</label>
                             </div>
                             <div className="w-full h-full flex justify-center">
-                                <button className="mt-4 outline-none w-40 h-full bg-blue-500 p-1 uppercase rounded-full text-gray-50">Login</button>
+                                <button className="mt-4 outline-none w-40 h-full bg-blue-500 p-1 uppercase rounded-full text-gray-50 hover:bg-blue-600">Login</button>
                             </div>
                             <a href="#" className="text-blue-500 w-full text-right mt-4 mr-20 pr-20 hover:underline">Forgot Password?</a>
                             <div className="mt-10 ml-16">
