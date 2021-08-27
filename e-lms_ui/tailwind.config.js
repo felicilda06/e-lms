@@ -17,6 +17,7 @@ module.exports = {
       },
       height:{
         'calc-1':'65vh',
+        'calc-2':'50vh',
       }
     },
   },
