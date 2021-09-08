@@ -20,7 +20,7 @@ function SignUp(){
                             <h1 className="text-gray-100 text-lg mb-10 px-6 lg:mb-48 lg:text-2xl md:text-xl">Create an Account</h1>
                             <div className="flex flex-col text-gray-50 text-calc-1">
                                 <button className="p-2 border-2 border-gray-50 rounded-lg hover:bg-gray-500 hover:transition ease-in-out duration-200"><i className="fa fa-user-o"></i>&nbsp;&nbsp;Sign-up as teacher</button>
-                                <button className="p-2 border-2 border-gray-50 rounded-lg mt-4 hover:bg-gray-500 hover:transition ease-in-out duration-200"><i className="fa fa-user"></i>&nbsp;&nbsp;Sign-up as teacher</button>
+                                <button className="p-2 border-2 border-gray-50 rounded-lg mt-4 hover:bg-gray-500 hover:transition ease-in-out duration-200"><i className="fa fa-user"></i>&nbsp;&nbsp;Sign-up as student</button>
                                 
                             </div>
                         </div>
