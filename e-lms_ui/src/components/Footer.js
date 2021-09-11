@@ -1,12 +1,48 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone,faFax,faMapPin } from '@fortawesome/free-solid-svg-icons';
 
 function Footer(){
     return(
-       <footer className="text-gray-50 w-full">
-           <div className="font-poppins w-full h-12 flex justify-center items-center bg-gray-200 border-t-2 border-gray-300 shadow-xl px-4">
-              <span className="text-gray-600 text-calc-3">Copyright&copy; All Rights Reserved.</span>
+       <div className="footer">
+           <div className="footer__logo">
+                <h2>E-Learning Management System</h2>
            </div>
-       </footer>
+           <div className="row">
+                    <div className="col-lg-6">
+                       <div className="line">
+                            <FontAwesomeIcon icon={faPhone} className="icon"/>
+                            <p>0999-1234-456</p>
+                       </div>
+                       <div className="line">
+                            <FontAwesomeIcon icon={faFax} className="icon"/>
+                            <p>(03) 967-1234</p>
+                       </div>
+                       <div className="line">
+                            <FontAwesomeIcon icon={faMapPin} className="icon"/>
+                            <p>Sogod, Southern Leyte</p>
+                       </div>
+                    </div>
+                    <div className="col-lg-6">
+                        <div className="line">
+                            <FontAwesomeIcon icon={faMapPin} className="icon"/>
+                            <p>Sogod, Southern Leyte</p>
+                       </div>
+                       <div className="line">
+                            <FontAwesomeIcon icon={faMapPin} className="icon"/>
+                            <p>Sogod, Southern Leyte</p>
+                       </div>
+                    </div>
+                </div>
+            <div className="row">
+                <div className="col-lg-12">
+                    <div className="copyright">
+                        <small>&copy; Copyright  2021 All Rights Reserved</small>
+                    </div>
+                </div>
+            </div>
+            
+       </div>
     );
 }
 

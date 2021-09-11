@@ -15,21 +15,21 @@ class RegisterController extends Controller
         $validator = Validator::make($request->all(),[
           'uid'         => 'required',
           'fullname'    => 'required|string',
-          'phone'       => 'required|max:11|min:11',
+          'phone'       => 'required|numeric|max:11|min:11',
           'school_id'  => 'required|string',
           'school_name' => 'required|string',
           'year_level'  => 'required|string',
           'section'     =>'required|string',
           'username'    => 'required|string',
           'email'    => 'required|email',
-          'password'    => 'required|string',
+          'password'    => 'required',
           'user_type'   =>'required|string',
        ]);
 
        if($validator->fails()) {
             return response()->json([
                'status'  => 400,
-               'message' => $validator->messages(),
+               'error' => $validator->messages(),
             ]);
        }
             $token = (new Token())->Unique('users', 'user_token', 60);

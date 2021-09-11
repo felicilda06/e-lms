@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color: #3D6098;
+    --main-color-hover: #0d2a58;
+    --secondary: #213159;
+    --red: #F04B4C;
+    --red-hover: #a80606;
+    --gray: #E7E7E7;
+    --light-gray: #D8D8D8;
+    --white :#ffffff;
+    --text:#333333;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+button{
+    outline: none;
+    border: none;
+    transition: 0.3s linear;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    @for $i from 1 through 12 {
+        .col-lg-#{$i}{
+            width: 100%/ 12 * $i;
+        }
+        &:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    }
+}
+@media only screen and (max-width: 768px) {
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        @for $i from 1 through 12 {
+            .col-md-#{$i}{
+                width: 100%/ 12 * $i;
+            }
+            &:after {
+                content: "";
+                display: table;
+                clear: both;
+            }
+        }
+    }
+}
+
+@import './components/nav';
+@import './components/hero';
+@import './components/footer';

@@ -17,7 +17,7 @@ class CreateUsersTable extends Migration
             $table->increments('id')->primaryKey();
             $table->string('uid')->unique();
             $table->string('fullname');
-            $table->bigInteger('phone')->unique();
+            $table->string('phone')->unique();
             $table->string('school_id');
             $table->string('school_name');
             $table->string('year_level');

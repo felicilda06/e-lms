@@ -1,0 +1,29 @@
+.footer{
+    padding: 3rem 3rem;
+    background-color: var(--secondary);
+    h2{
+        color: var(--white);
+        font-size: 1.3rem;
+        margin-bottom:2rem;
+    }
+    .row{
+        padding:0 3rem;
+        .line{
+            display: flex;
+            color: var(--white);
+            align-items: center;
+            margin-bottom: 1rem;
+            .icon{
+                margin-right: 1rem;
+            }
+        }
+    }
+    .copyright{
+      display: flex;
+      justify-content: center; 
+     transform: translateY(30px);
+        small{
+            color: #e7e7e7;
+        }
+    }
+}
