@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200;1,300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /* ./src/index.css */
 @tailwind base;
@@ -7,6 +6,5 @@
 @tailwind utilities;
 
 html{
-    margin:0;
-    padding:0;
+    font-family: 'Poppins', sans-serif;
 }

@@ -1,49 +1,35 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faPhone,faFax,faMapPin } from '@fortawesome/free-solid-svg-icons';
 
 function Footer(){
     return(
-       <div className="footer">
-           <div className="footer__logo">
-                <h2>E-Learning Management System</h2>
-           </div>
-           <div className="row">
-                    <div className="col-lg-6">
-                       <div className="line">
-                            <FontAwesomeIcon icon={faPhone} className="icon"/>
-                            <p>0999-1234-456</p>
-                       </div>
-                       <div className="line">
-                            <FontAwesomeIcon icon={faFax} className="icon"/>
-                            <p>(03) 967-1234</p>
-                       </div>
-                       <div className="line">
-                            <FontAwesomeIcon icon={faMapPin} className="icon"/>
-                            <p>Sogod, Southern Leyte</p>
-                       </div>
+        <div className="footer w-screen h-40 bg-primary text-lightGray">
+            <i className="fa fa-graduation-cap ml-4 mt-6 lg:ml-20 md:ml-20"></i><h1 className="inline-block text-md font-light">&nbsp;E-Learning Management System</h1>
+            <div className="flex justify-between items-center px-10 lg:px-28 md:px-28">
+                <div className="footer-left-content mt-4">
+                    <div className="contact-1 flex items-center text-xs mb-2">
+                        <i className="fa fa-phone mr-2"></i><h3>0926-476-9986</h3>
                     </div>
-                    <div className="col-lg-6">
-                        <div className="line">
-                            <FontAwesomeIcon icon={faMapPin} className="icon"/>
-                            <p>Sogod, Southern Leyte</p>
-                       </div>
-                       <div className="line">
-                            <FontAwesomeIcon icon={faMapPin} className="icon"/>
-                            <p>Sogod, Southern Leyte</p>
-                       </div>
+                    <div className="contact-1 flex items-center text-xs mb-2">
+                        <i className="fa fa-fax mr-2"></i><h3>(03) 967-1234</h3>
+                    </div>
+                    <div className="contact-1 flex items-center text-xs ">
+                        <i className="fa fa-map-marker mr-2"></i><h3>Sogod, Southern Leyte</h3>
                     </div>
                 </div>
-            <div className="row">
-                <div className="col-lg-12">
-                    <div className="copyright">
-                        <small>&copy; Copyright  2021 All Rights Reserved</small>
+                <div className="footer-right-content mt-4">
+                    <div className="contact-1 flex items-center text-xs mb-2">
+                        <i className="fa fa-envelope mr-2"></i><h3>hmp@gmail.com</h3>
+                    </div>
+                    <div className="contact-1 flex items-center text-xs">
+                        <i className="fa fa-facebook mr-2"></i><h3>hmpFacebook.com</h3>
                     </div>
                 </div>
             </div>
-            
-       </div>
-    );
+            <div className="w-full flex justify-center text-xs my-2">
+                <span>Copyright &copy; All rights reserved.</span>
+            </div>
+        </div>
+    )
 }
 
 export default Footer;

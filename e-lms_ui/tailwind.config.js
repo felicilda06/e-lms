@@ -3,21 +3,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      fontSize:{
-        'calc-1':'13px',
-        'calc-2':'19px',
-        'calc-3':'14px',
-        'calc-4':'11px',
-        'calc-5':'12px',
-        'calc-6':'15px',
-      },
-      fontFamily:{
-        poppins:'Poppins',
-        lobster:'Lobster',
-      },
-      height:{
-        'calc-1':'65vh',
-        'calc-2':'50vh',
+      colors:{
+        primary: '#213159',
+        secondary: '#3D6098',
+        lightRed: '#F04B4C',
+        darkRed:'#B50F0F',
+        lightGray: '#E7E7E7'
       }
     },
   },
