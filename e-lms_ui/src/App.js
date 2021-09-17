@@ -8,7 +8,7 @@ function App() {
      <Router>
         <Header/>
         <Switch/>
-         <LandingPage/>
+         <LandingPage exact path={'/'}/>
         <Route/>
      </Router>
   );

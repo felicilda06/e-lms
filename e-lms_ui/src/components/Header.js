@@ -17,10 +17,10 @@ function Header(){
               </div>
               <ul className={isOpen ?'bg-secondary mt-2 text-sm flex flex-col lg:flex-row md:flex-row':' hidden mt-2 text-sm lg:flex md:flex'}>
                   <li className="mr-4 py-2 pl-4 w-full cursor-pointer transisiton ease-in-out duration-300 hover:bg-primary lg:pl-0 lg:hover:bg-secondary md:pl-0 md:hover:bg-secondary">
-                    <Link>LOGIN</Link>
+                    <Link to={'/'}>LOGIN</Link>
                   </li>
                   <li className="mr-10 py-2 pl-4 w-full cursor-pointer transisiton ease-in-out duration-300 hover:bg-primary lg:pl-0 lg:hover:bg-secondary md:pl-0 md:hover:bg-secondary">
-                    <Link>REGISTER</Link>
+                    <Link to={'/'}>REGISTER</Link>
                   </li>
               </ul>
             </nav>    

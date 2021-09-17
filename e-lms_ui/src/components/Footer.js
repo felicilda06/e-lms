@@ -3,9 +3,9 @@ import React from 'react';
 function Footer(){
     return(
         <div className="footer w-screen h-40 bg-primary text-lightGray">
-            <i className="fa fa-graduation-cap ml-4 mt-6 lg:ml-20 md:ml-20"></i><h1 className="inline-block text-md font-light">&nbsp;E-Learning Management System</h1>
+            <i className="fa fa-graduation-cap ml-4 mt-4 lg:ml-20 md:ml-20"></i><h1 className="inline-block text-md font-light">&nbsp;E-Learning Management System</h1>
             <div className="flex justify-between items-center px-10 lg:px-28 md:px-28">
-                <div className="footer-left-content mt-4">
+                <div className="footer-left-content mt-3">
                     <div className="contact-1 flex items-center text-xs mb-2">
                         <i className="fa fa-phone mr-2"></i><h3>0926-476-9986</h3>
                     </div>
@@ -25,7 +25,7 @@ function Footer(){
                     </div>
                 </div>
             </div>
-            <div className="w-full flex justify-center text-xs my-2">
+            <div className="w-full flex justify-center text-xs mt-5">
                 <span>Copyright &copy; All rights reserved.</span>
             </div>
         </div>
